@@ -3,4 +3,7 @@
 pd
 source
 win
-pdstd*.txt
+pdstderr.txt
+pdvstdebug.txt
+changelog.txt
+README.txt
