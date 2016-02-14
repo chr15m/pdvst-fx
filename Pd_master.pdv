@@ -14,17 +14,19 @@ SYNTH = FALSE
 CUSTOMGUI = FALSE
 
 # Display Pd GUI or not
-DEBUG = FALSE
+DEBUG = TRUE
 
 # External libraries (comma delimited list, relative to pdvst/)
 LIB =
 
 # Number of VST parameters (up to 128)
-PARAMETERS = 1
+PARAMETERS = 3
 
 # Name of first VST parameter
 # used when CUSTOMGUI is false or VST host doesn't support custom editors
 NAMEPARAMETER0 = pump
+NAMEPARAMETER1 = rise-time
+NAMEPARAMETER2 = fall-time
 
 # Define a program (up to 128)
 #PROGRAM = Full Blast
