@@ -1,0 +1,45 @@
+# Number of audio input and output channels
+CHANNELS = 2
+
+# Main Pd patch of the plugin
+MAIN = Pd_delay.pd
+
+# Unique four character VST plugin ID
+ID = pddl
+
+# Whether this is a VSTi
+SYNTH = TRUE
+
+# Whether there is a custom GUI (e.g. GrIPD)
+CUSTOMGUI = FALSE
+
+# Display Pd GUI or not
+DEBUG = TRUE
+
+# External libraries (comma delimited list, relative to pdvst/)
+LIB =
+
+# Number of VST parameters (up to 128)
+PARAMETERS = 3
+
+NAMEPARAMETER0 = delay
+NAMEPARAMETER1 = feedback
+NAMEPARAMETER2 = cutoff
+
+# Name of first VST parameter
+# used when CUSTOMGUI is false or VST host doesn't support custom editors
+#NAMEPARAMETER0 = Level
+#NAMEPARAMETER1 = Waveform
+#NAMEPARAMETER2 = Cut-off
+
+# Define a program (up to 128)
+#PROGRAM = Nice Sawtooth
+#PARAMETER0 = 1
+#PARAMETER1 = 0
+#PARAMETER2 = 0.4
+
+#Deinfe another program and its parameter value
+#PROGRAM = Pretty Square
+#PARAMETER0 = 1
+#PARAMETER1 = 1
+#PARAMETER2 = 0.9
