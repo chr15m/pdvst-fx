@@ -1,0 +1,38 @@
+# Number of audio input and output channels
+CHANNELS = 2
+
+# Main Pd patch of the plugin
+MAIN = Pd_foldover.pd
+
+# Unique four character VST plugin ID
+ID = pdfl
+
+# Whether this is a VSTi
+SYNTH = FALSE
+
+# Whether there is a custom GUI (e.g. GrIPD)
+CUSTOMGUI = FALSE
+
+# Display Pd GUI or not
+DEBUG = FALSE
+
+# External libraries (comma delimited list, relative to pdvst/)
+LIB =
+
+# Number of VST parameters (up to 128)
+PARAMETERS = 1
+
+# Name of first VST parameter
+# used when CUSTOMGUI is false or VST host doesn't support custom editors
+NAMEPARAMETER0 = drive
+#NAMEPARAMETER1 = push
+
+# Define a program (up to 128)
+#PROGRAM = Full Blast
+
+# Set first parameter value for this program
+#PARAMETER0 = 1.0
+
+#Deinfe another program and its parameter value
+#PROGRAM = 10 dB Cut
+#PARAMETER0 = 0.33
